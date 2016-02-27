@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<regions>
+
+	<region id="USEAST"> <!-- id = server prefix in dropdown -->
+	
+		<server id="1" ip="localhost"> <!-- have more than one server, increment the id! -->
+			<gamemode name="FFA" type="ffa" port="2000" stats_port="3000" sfx="true" /> <!-- sfx = Server Support Sound Effects -->
+			<gamemode name="Experimental" type="experimental" port="2000" stats_port="3001" sfx="true" /> <!-- gamemodes other than ffa and experimental are not supported! -->
+		</server>
+
+	</region>
+
+</regions>
